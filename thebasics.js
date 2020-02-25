@@ -5,6 +5,11 @@ const theBasics = { html : "https://www.youtube.com/embed/UB1O30fR-EE",
     const cssbutton = document.getElementById("basic2");
     const jsbutton = document.getElementById("basic3");
     const videocontent = document.getElementById("video-content")
+
+    window.onload = () => {
+        videocontent.setAttribute("src",theBasics.html);
+        console.log("html");}
+        
     htmlbutton.addEventListener("click",()=>{
         videocontent.setAttribute("src",theBasics.html);
         console.log("html");

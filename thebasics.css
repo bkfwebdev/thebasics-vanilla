@@ -1,34 +1,34 @@
 body {
-        background-color: lightblue;
-    }
+    background-color: lightblue;
+}
 
 #maincontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
-   #video-content {
-	padding:5px 5px 5px 5px;
-	border-radius:20px;
-	border-color:black;
-	width:885;
-	height:660; }
+#video-content {
+padding:5px 5px 5px 5px;
+border-radius:20px;
+border-color:black;
+width:50em;
+height:30em; }
 
-    ul li { 
-        display: inline;
-    }
+ul li { 
+    display: inline;
+}
 
-    button {
-        color: white;
-        background-color: darkblue;
-        height: 80px;
-        width : 120px;
-        font-size: 25px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        border-style: solid;
-        border-color: black;
-        border-width: 2px;
-        border-radius: 10px;
+button {
+    color: white;
+    background-color: darkblue;
+    height: 60px;
+    width : 125px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
 
-    }
+}
